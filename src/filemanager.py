@@ -54,9 +54,7 @@ class FileManager:
 
     from ._filelist import fileList
     from ._modfilelist import modFileList
-    from ._genlist import genList
-
-    from ._epictoolbox import EpicToolbox
+    from ._genlist import genList  
     from ._getfields import getFields
 
 

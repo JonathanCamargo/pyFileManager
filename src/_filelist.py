@@ -32,7 +32,7 @@ def fileList(self,dictData=None):
     if self.showRoot==False:
         for idx in range(0,len(allPaths)):
             a=allPaths[idx].split(os.sep)
-            allPaths[idx]=os.sep.join(a[-len(folderLevels):])
+            allPaths[idx]=os.sep.join(a[-len(self.folderLevels):])
 
     #print(allPaths)
     return allPaths
